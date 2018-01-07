@@ -1,0 +1,8 @@
+
+if HUAWEI_PLATFORM
+
+source "drivers/huawei_platform/camera_legacy/hi6220/Kconfig"
+
+endif # HUAWEI_PLATFORM
+
+

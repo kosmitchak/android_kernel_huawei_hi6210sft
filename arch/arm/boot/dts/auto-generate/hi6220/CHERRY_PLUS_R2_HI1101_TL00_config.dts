@@ -1,0 +1,65 @@
+/*
+ *  Copyright (C) 2014 Hisilicon Ltd.
+ *  Author: Bintian Wang <bintian.wang@huawei.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/dts-v1/;
+/memreserve/ 0x07000000 0x00400000;
+/include/ "CHERRY_PLUS_R2_TL00_VB_config.dtsi"
+/include/ "CHERRY_PLUS_R2_HI1101_TL00_pin.dtsi"
+/include/ "CHERRY_PLUS_R2_HI1101_TL00_gpio_logic.dtsi"
+/include/ "CHERRY_PLUS_R2_HI1101_TL00_pmic.dtsi"
+/include/ "CHERRY_PLUS_R2_HI1101_TL00_charger.dtsi"
+/include/ "./cherry_plus_r2/hisi_hi1101.dtsi"
+/ {
+	model = "Hisilicon Hi6210 Development Board";
+	compatible = "hisilicon,hi6210";
+	hisi,boardid = <0 7 4 1>;
+	hisi,boardname = "CHERRY_PLUS_R2_HI1101_TL00";
+	hisi,modem_id = <0x3DD51500>;
+	hisi,product_name = "CHERRY_PLUS_R2_HI1101";
+	mntn,acpu-scaddr = <0xf6504000 0x1000>;
+
+	pmic: pmic@F8000000 {
+                coul: coul@1 {
+						status = "ok";
+                };
+	};
+	
+	boardinfo{
+	factory_product_name = "HL6CHRPLS";
+	normal_product_name = "Che2-TL00H";
+	};
+	
+	bcm_wifi {
+		compatible = "hisilicon,bcm_wifi";
+		status = "disable";
+	};
+    bluetooth_power:bluetooth_power{
+        compatible = "huawei,bluetooth_power";
+		status = "disable";
+	};
+	bluetooth_sleep:bluetooth_sleep{
+        compatible = "huawei,bluetooth_sleep";
+		status = "disable";
+	};	
+	gps_power:gps_power{
+        compatible = "huawei,gps_power";
+		status = "disable";
+	};
+	bq_bci_battery:battery {
+		status = "ok";
+	};
+        hw_connectivity {
+        chip_type = "hi110x";
+    };
+
+  dwmmc2@F723F000 {
+		keep-power-in-suspend;
+		};
+
+};

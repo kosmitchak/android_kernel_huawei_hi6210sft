@@ -1,0 +1,81 @@
+/*
+ *  Copyright (C) 2013 Huawei co Ltd.
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/ {
+   hi1101 {
+			compatible = "hisilicon,hi1101";
+			huawei,pmu_clk32b = "CK32B";
+			/*
+			clocks = <&clk_pmu32kb &clk_uart3>;
+			clock-names = "todev32kb", "uart3in1";
+			
+			hi1101,gpio_power_on = <&gpio2 1 0>;
+			hi1101,gpio_wlan_power_on = <&gpio2 2 0>;
+			hi1101,gpio_wlan_wakeup_host = <&gpio0 4 0>;
+			hi1101,gpio_host_wakeup_wlan = <&gpio1 6 0>;
+			hi1101,gpio_bfg_power_on = <&gpio15 5 0>;
+			hi1101,gpio_bfg_wakeup_host = <&gpio0 5 0>;
+			hi1101,gpio_host_wakeup_bfg = <&gpio15 7 0>;
+			*/
+			hi1101,gpio_power_on = <&gpio3 2 0>;
+			hi1101,gpio_wlan_power_on = <&gpio2 3 0>;
+			hi1101,gpio_wlan_wakeup_host = <&gpio2 4 0>;
+			hi1101,gpio_host_wakeup_wlan = <&gpio2 2 0>;
+			hi1101,gpio_bfg_power_on = <&gpio2 7 0>;
+			hi1101,gpio_bfg_wakeup_host = <&gpio3 1 0>;
+			hi1101,gpio_host_wakeup_bfg = <&gpio3 0 0>;
+
+	};
+    hi1101-power {
+			compatible = "hisilicon,hi1101-power";
+	};
+
+	hi1101-ps {
+			compatible = "hisilicon,hi1101-ps";
+			uart-dev = "/dev/ttyAMA1";
+			/*
+			uart-baud = <921600>;
+			uart-flow = <1>;
+			*/
+
+	};
+
+
+};
+
+/ {
+   hi1101_wifi {
+		compatible = "hisilicon,hi1101_wifi";
+
+		pinctrl-names = "default", "idle";
+		pinctrl-0 = <&SDIO_CLK_cfg_func
+			         &SDIO_CMD_cfg_func
+			         &SDIO_DATA0_cfg_func
+			         &SDIO_DATA1_cfg_func
+			         &SDIO_DATA2_cfg_func
+			         &SDIO_DATA3_cfg_func
+					 &SDIO_CLK_pmx_func
+			         &SDIO_CMD_pmx_func
+			         &SDIO_DATA0_pmx_func
+			         &SDIO_DATA1_pmx_func
+			         &SDIO_DATA2_pmx_func
+			         &SDIO_DATA3_pmx_func>;
+		pinctrl-1 = <&SDIO_CLK_cfg_idle
+			         &SDIO_CMD_cfg_idle
+			         &SDIO_DATA0_cfg_idle
+			         &SDIO_DATA1_cfg_idle
+			         &SDIO_DATA2_cfg_idle
+			         &SDIO_DATA3_cfg_idle
+				     &SDIO_CLK_pmx_idle
+			         &SDIO_CMD_pmx_idle
+			         &SDIO_DATA0_pmx_idle
+			         &SDIO_DATA1_pmx_idle
+			         &SDIO_DATA2_pmx_idle
+			         &SDIO_DATA3_pmx_idle>;
+	};
+};

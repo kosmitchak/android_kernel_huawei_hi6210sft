@@ -1,0 +1,21 @@
+/*
+ *  Copyright (C) 2014 Hisilicon Ltd.
+ *  Author: Bintian Wang <bintian.wang@huawei.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/dts-v1/;
+/memreserve/ 0x07000000 0x00400000;
+/include/ "CHERRY_PLUS_R2_TL00_VB_config.dtsi"
+/include/ "CHERRY_PLUS_R2_TL00_VC_pin.dtsi"
+/include/ "CHERRY_PLUS_R2_TL00_VC_gpio_logic.dtsi"
+/include/ "CHERRY_PLUS_R2_TL00_VC_pmic.dtsi"
+/include/ "CHERRY_PLUS_R2_TL00_VC_charger.dtsi"
+/ {
+    hisi,boardid = <0 7 0 2>;
+    hisi,boardname = "CHERRY_PLUS_R2_TL00_VC";
+    hisi,modem_id = <0x3DD52100>;
+};

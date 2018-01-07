@@ -1,0 +1,19 @@
+
+config BATTERY_HI6XXX_SMARTSTAR
+	bool "hi6xxx smartstar"
+	default n
+config BATTERY_HISI_COUL
+        bool "hisi coul"
+        default n
+config BQ_BCI_BATTERY
+        bool "bq bci battery"
+        default n
+config BQ2419X_CHARGER
+        bool "hi6xxx bq2419x charger"
+        default n        
+config HI6521_CHARGER
+        bool "hi6xxx hi6521 charger"
+        default n
+config CHARGER_TYPE_RECHECK
+        bool "hi6xxx charger type recheck"
+        default n

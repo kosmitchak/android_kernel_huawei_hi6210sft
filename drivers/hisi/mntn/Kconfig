@@ -1,0 +1,5 @@
+config HISILICON_PLATFORM_MAINTAIN
+	bool "Hisilicon platform maintain module support"
+	default n
+	help
+	  Say yes here to support the hisilicon platform maintain module 

@@ -1,0 +1,38 @@
+/*
+ * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+/{
+	hall0 {
+		compatible = "hall,sensor";
+		hall_north_pole = <&gpio0 6 0>;
+		hall_south_pole = <&gpio2 3 0>;
+		hall_id = <0>;
+		hall_type = <0>;
+		hall_wake_up_flag = <16384>;
+		x_coordinate = <3>;
+		y_coordinate = <120>;
+		status = "ok";
+	};
+
+	hall1 {
+		compatible = "hall,sensor";
+		hall_north_pole = <&gpio0 6 0>;
+		hall_south_pole = <&gpio2 3 0>;
+		hall_id = <1>;
+		hall_type = <0>;
+		hall_wake_up_flag = <16384>;
+		x_coordinate = <78>;
+		y_coordinate = <78>;
+		status = "disabled";
+	};
+};

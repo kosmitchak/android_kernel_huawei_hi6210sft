@@ -1,0 +1,112 @@
+/*
+ *  Copyright (C) 2014 Hisilicon Ltd.
+ *  Author: Bintian Wang <bintian.wang@huawei.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/dts-v1/;
+/include/ "hi6210sft_udp_ddr2_config.dtsi"
+/include/ "hi6210sft_udp_ddr3_pin.dtsi"
+/include/ "hi6210sft_udp_ddr3_gpio_logic.dtsi"
+/include/ "hi6210sft_udp_ddr3_pmic.dtsi"
+/include/ "hi6210sft_udp_ddr3_charger.dtsi"
+/ {
+	hisi,boardid = <0 0 0 3>;
+	hisi,boardname = "hi6210sft_udp_ddr3";
+
+	amba {
+
+		i2c2: i2c@f7102000 {
+			status = "ok";
+			st_lis3dh_acc:acc@18{
+				compatible="huawei,lis3dh_acc";
+				reg = <0x18>;
+				sensor_type="acc";
+				poll_interval=<10>;
+				min_interval=<10>;
+				g_range=<0>;
+				axis_map_x=<0>;
+				axis_map_y=<1>;
+				axis_map_z=<2>;
+				negate_x=<1>;
+				negate_y=<1>;
+				negate_z=<0>;
+				gpio_int1=<0>;
+				gpio_int2=<0>;
+				status = "ok";
+			};
+			rohm_kc023_acc:acc@1E{
+				compatible="huawei,kc023_acc";
+				reg = <0x1E>;
+				sensor_type="acc";
+				poll_interval=<10>;
+				min_interval=<10>;
+				g_range=<0>;
+				accel_res=<3>;
+				axis_map_x=<0>;
+				axis_map_y=<1>;
+				axis_map_z=<2>;
+				negate_x=<1>;
+				negate_y=<1>;
+				negate_z=<0>;
+				gpio_int1=<0>;
+				gpio_int2=<0>;
+				status = "ok";
+			};
+
+			akm_akm09911:compass@0d{
+				compatible="huawei,akm09911";
+				reg = <0x0c>;
+				compass_layout=<4>;
+				akm9911=<1>;
+				gpio_RSTN=<&gpio0 3 0>;
+				status = "ok";
+			};		
+		};
+
+	};
+
+	fake_clk_ddrpll: fake_clk_ddrpll {
+		compatible = "fixed-clock";
+		#clock-cells = <0>;	
+		clock-frequency = <800000000>;		
+		clock-output-names = "fake_clk_ddrpll";
+	};
+
+	hall0 {
+		compatible = "hall,sensor";
+		hall_north_pole = <&gpio2 3 0>;
+		hall_south_pole = <&gpio0 6 0>;
+		hall_id = <0>;
+		hall_type = <2>;
+		hall_wake_up_flag = <16384>;
+		x_coordinate = <3>;
+		y_coordinate = <120>;
+		status = "ok";
+	};
+
+        ddr_min: ddrfreq {
+		operating-points = <
+			/* kHz uV */
+			150000	0
+			266000	0
+			400000  0
+			533000  0
+			800000  0
+		>;
+	};
+
+        ddr_max: ddrfreq_up_threshold {
+                operating-points = <
+			/* kHz uV */
+			150000	0
+			266000	0
+			400000  0
+			533000  0
+			800000  0
+		>;
+	};
+};

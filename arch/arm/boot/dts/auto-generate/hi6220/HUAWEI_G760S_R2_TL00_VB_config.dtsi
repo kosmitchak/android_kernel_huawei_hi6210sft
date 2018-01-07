@@ -1,0 +1,30 @@
+/*
+ *  Copyright (C) 2014 Hisilicon Ltd.
+ *  Author: Bintian Wang <bintian.wang@huawei.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/include/ "HUAWEI_G760S_R2_UL00_VB_config.dtsi"
+/include/ "HUAWEI_G760S_R2_TL00_VB_pin.dtsi"
+/include/ "HUAWEI_G760S_R2_TL00_VB_gpio_logic.dtsi"
+/include/ "HUAWEI_G760S_R2_TL00_VB_pmic.dtsi"
+/include/ "HUAWEI_G760S_R2_TL00_VB_charger.dtsi"
+/ {
+	model = "Hisilicon Hi6210 Development Board";
+	compatible = "hisilicon,hi6210";
+	hisi,boardid = <0 9 1 0>;
+	hisi,boardname = "HUAWEI_G760S_R2_TL00_VB";
+        hisi,modem_id = <0x3DF51180>;
+	hisi,product_name = "G760S_TL00";
+	boardinfo{
+		factory_product_name = "HL0G760SL075M";
+		normal_product_name = "G760S-TL00";
+		};
+	bcm_wifi {
+		wifi_nvram_name = "/vendor/firmware/nvram_G760S_TL00.txt";
+		status = "ok";
+	};
+};

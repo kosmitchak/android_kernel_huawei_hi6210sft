@@ -1,0 +1,237 @@
+
+/ {
+
+	hisi_ion_no_iommu@0 {
+		compatible = "hisi,hi6xxx-ion-no-iommu";
+
+		/*预留内存基地址*/
+		memreserve_base = <0x27300000>;
+		/*预留内存大小*/
+		memreserve_size = <0x18d00000>;
+
+		/*FRAME BUFFER堆*/
+		heap_fb@0 {
+			/*堆名*/
+			heap-name = "fb";
+			/*堆基地址*/
+			heap-base = <0x3e700000>;
+			/*堆大小*/
+			heap-size = <0x01900000>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*VPU堆*/
+		heap_vpu@0 {
+			/*堆名*/
+			heap-name = "vpu";
+			/*堆基地址*/
+			heap-base = <0x3b600000>;
+			/*堆大小*/
+			heap-size = <0x03100000>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*JPU堆*/
+		heap_jpu@0 {
+			/*堆名*/
+			heap-name = "jpu";
+			/*堆基地址*/
+			heap-base = <0x3a500000>;
+			/*堆大小*/
+			heap-size = <0x01100000>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*GRALLOC堆*/
+		heap_gralloc@0 {
+			/*堆名*/
+			heap-name = "gralloc-carveout";
+			/*堆基地址*/
+			heap-base = <0x2EF00000>;
+			/*堆大小*/
+			heap-size = <0x0b600000>;
+			/*堆类型*/
+			heap-type = "ion_carveout";
+		};
+
+		/*OVERLAY堆*/
+		heap_overlay@0 {
+			/*堆名*/
+			heap-name = "overlay";
+			/*堆基地址*/
+			heap-base = <0x27300000>;
+			/*堆大小*/
+			heap-size = <0x07c00000>;
+			/*堆类型*/
+			heap-type = "ion_carveout";
+		};
+
+		/*SYSTEM User堆*/
+		heap_sys_user@0 {
+			/*堆名*/
+			heap-name = "sys_user";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "ion_system";
+		};
+
+		/*SYSTEM Contig堆*/
+		heap_sys_contig@0 {
+			/*堆名*/
+			heap-name = "sys_contig";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "ion_system_contig";
+		};
+	};
+
+	hisi_ion_iommu@0{
+		compatible = "hisi,hi6xxx-ion-iommu";
+
+		/*预留内存基地址*/
+		memreserve_base = <0x3e700000>;
+		/*预留内存大小*/
+		memreserve_size = <0x01900000>;
+
+		/*FRAME BUFFER堆*/
+		heap_fb@0 {
+			/*堆名*/
+			heap-name = "fb";
+			/*堆基地址*/
+			heap-base = <0x3e700000>;
+			/*堆大小*/
+			heap-size = <0x01900000>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*VPU堆*/
+		heap_vpu@0 {
+			/*堆名*/
+			heap-name = "vpu";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*JPU堆*/
+		heap_jpu@0 {
+			/*堆名*/
+			heap-name = "jpu";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*GRALLOC堆*/
+		heap_gralloc@0 {
+			/*堆名*/
+			heap-name = "gralloc-iommu";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x38000000>;
+			/*堆类型*/
+			heap-type = "ion_iommu";
+		};
+
+		/*OVERLAY堆*/
+		heap_overlay@0 {
+			/*堆名*/
+			heap-name = "overlay";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "reserved";
+		};
+
+		/*SYSTEM User堆*/
+		heap_sys_user@0 {
+			/*堆名*/
+			heap-name = "sys_user";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "ion_system";
+		};
+
+		/*SYSTEM Contig堆*/
+		heap_sys_contig@0 {
+			/*堆名*/
+			heap-name = "sys_contig";
+			/*堆基地址*/
+			heap-base = <0x0>;
+			/*堆大小*/
+			heap-size = <0x0>;
+			/*堆类型*/
+			heap-type = "ion_system_contig";
+		};
+	};
+
+	/*IOMMU 节点*/
+	iommu:iommu_v100@f4210000 {
+		compatible = "hisi,hi6210-iommu";
+		#address-cells = <1>;
+		#size-cells = <0>;
+		/*IOMMU寄存器地址,大小*/
+		reg = <0xf4210000 0x1000>;
+		/*IOMMU中断号*/
+		interrupts = <0 113 2>;
+		/*IOMMU时钟对象*/
+		clocks = <&clk_mmu>,<&clk_med_mmu>,<&clk_medpll_src_gated>;
+		/*IOMMU时钟名*/
+		clock-names = "clk_mmu","clk_med_mmu","clk_medpll_src_gated";
+		/*IOMMU IP版本号*/
+		hisi,iommu-version = <0x1>;
+		/*IOMMU Cache使能开关*/
+		iommu_l0_cache = "disable";
+		/*IOMMU运行参数*/
+		iommu_runtime{
+			compatible = "hisi,iommu-runtime";
+			/*DDR实际大小,IO域地址空间大小,Page Reserve寄存器值*/
+			hisi,iommu-params = <0x1000 0x38000000 0x1a0>;
+		};
+
+		/*IOMMU 调试参数*/
+		iommu_debug_register{
+			compatible = "hisi,iommu-debug";
+
+			/*调试寄存器*/
+			debug_reg@0{
+				/*寄存器起始地址*/
+				reg_base=<0x60>;
+				/*寄存器总大小*/
+				reg_size=<0x14>;
+			};
+
+			/*调试 FIFO*/
+			debug_fifo@0{
+				/*寄存器起始地址*/
+				reg_base=<0x0f00>;
+				/*寄存器总大小*/
+				reg_size=<0x9c>;
+			};
+		
+		};
+		
+	};
+};

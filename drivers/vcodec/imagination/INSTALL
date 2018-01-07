@@ -1,0 +1,35 @@
+
+IMG Video Embedded Systems DDK for the Linux kernel.
+Copyright (C) 2011 Imagination Technologies Ltd. All rights reserved.
+======================================================================
+
+This file covers how to build and install the Imagination Technologies
+VXE DDK for the Linux kernel. 
+
+
+Build and Install Instructions
+-------------------------------------------
+
+To build change to the directory containing the top-level kernel makefile:
+$ cd gplpackage
+
+Issue the make command to build the release version of the kernel module
+$ make
+
+To clean:
+$ make clean
+
+The DDK software must be installed by the root user.  Become the root user:
+$ su
+
+Install the kernel module:
+insmod imgvideo/imgvideo.ko
+insmod vdec/vdecdd.ko
+insmod encode/topazkm.ko
+
+Give users access to the device.
+chmod 777 /dev/imgvideo
+
+Become an ordinary user again:
+$ exit
+

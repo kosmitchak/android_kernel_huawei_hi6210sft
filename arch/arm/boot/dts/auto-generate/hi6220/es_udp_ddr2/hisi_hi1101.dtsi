@@ -1,0 +1,94 @@
+/*
+ *  Copyright (C) 2013 Huawei co Ltd.
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/ {
+   hi1101 {
+			compatible = "hisilicon,hi1101";
+			huawei,pmu_clk32b = "CK32B";
+
+			hi1101,gpio_power_on = <&gpio_hi1101_pwron>; 
+			hi1101,gpio_wlan_power_on = <&gpio_wl_en>; 
+			hi1101,gpio_wlan_wakeup_host = <&gpio_wl_wakeup_ap>; 
+			hi1101,gpio_host_wakeup_wlan = <&gpio_ap_wakeup_wl>; 
+			hi1101,gpio_bfg_power_on = <&gpio_bfg_en>; 
+			hi1101,gpio_bfg_wakeup_host = <&gpio_bt_wakeup_ap>; 
+			hi1101,gpio_host_wakeup_bfg = <&gpio_ap_wakeup_bt>; 
+			/*
+			hi1101,gpio_power_on = <&gpio4 0 0>; 
+			hi1101,gpio_wlan_power_on = <&gpio0 5 0>; 
+			hi1101,gpio_wlan_wakeup_host = <&gpio1 2 0>; 
+			hi1101,gpio_host_wakeup_wlan = <&gpio8 0 0>; 
+			hi1101,gpio_bfg_power_on = <&gpio4 3 0>; 
+			hi1101,gpio_bfg_wakeup_host = <&gpio1 3 0>; 
+			hi1101,gpio_host_wakeup_bfg = <&gpio3 7 0>; 
+			*/
+
+	};
+    hi1101-power {
+			compatible = "hisilicon,hi1101-power";
+	};
+
+	hi1101-ps {
+			compatible = "hisilicon,hi1101-ps";
+			uart-dev = "/dev/ttyAMA1";
+			/*
+			uart-baud = <921600>;
+			uart-flow = <1>;
+			*/
+
+	};
+
+
+};
+
+/ {
+   hi1101_wifi {
+		compatible = "hisilicon,hi1101_wifi";
+
+		pinctrl-names = "default", "idle";
+		pinctrl-0 = <&SDIO_CLK_cfg_func
+			         &SDIO_CMD_cfg_func
+			         &SDIO_DATA0_cfg_func
+			         &SDIO_DATA1_cfg_func
+			         &SDIO_DATA2_cfg_func
+			         &SDIO_DATA3_cfg_func
+					 &SDIO_CLK_pmx_func
+			         &SDIO_CMD_pmx_func
+			         &SDIO_DATA0_pmx_func
+			         &SDIO_DATA1_pmx_func
+			         &SDIO_DATA2_pmx_func
+			         &SDIO_DATA3_pmx_func>;
+		pinctrl-1 = <&SDIO_CLK_cfg_idle
+			         &SDIO_CMD_cfg_idle
+			         &SDIO_DATA0_cfg_idle
+			         &SDIO_DATA1_cfg_idle
+			         &SDIO_DATA2_cfg_idle
+			         &SDIO_DATA3_cfg_idle
+				     &SDIO_CLK_pmx_idle
+			         &SDIO_CMD_pmx_idle
+			         &SDIO_DATA0_pmx_idle
+			         &SDIO_DATA1_pmx_idle
+			         &SDIO_DATA2_pmx_idle
+			         &SDIO_DATA3_pmx_idle>;
+	};
+};
+
+/ {
+   hi1101_gps {
+		compatible = "hisilicon,hi1101_gps";
+			clocks = <&clk_ssi_pad>, <&clk_ssi_pad_sel>;
+			clock-names = "ref_clk", "ref_clk_sel";
+			
+			/*gps iomux config*/
+   			pinctrl-names = "default", "idle";
+			pinctrl-0 = <&GPIO_8_2_pmx_func
+						&GPIO_8_2_cfg_func>;
+			pinctrl-1 = <&GPIO_8_2_pmx_idle
+						 &GPIO_8_2_cfg_idle>;
+	};
+};

@@ -1,0 +1,19 @@
+config HUAWEI_PLATFORM
+	bool "Huawei platform support"
+	default n
+	help
+	  Say yes here to support the huawei platform
+
+
+if HUAWEI_PLATFORM
+menu "huawei linux device driver support package"
+
+source "drivers/huawei/nfc/Kconfig"
+source "drivers/huawei/irda/Kconfig"
+source "drivers/huawei/chipverification/Kconfig"
+source "drivers/huawei/hw_kstate/Kconfig"
+source "drivers/huawei/ddrinfo/Kconfig"
+endmenu
+endif # HUAWEI_PLATFORM
+
+

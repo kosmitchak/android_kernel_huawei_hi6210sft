@@ -1,0 +1,1220 @@
+/ {
+   amba {
+    pmx0: pinmux@F7010000 {
+		GPIO_4_5_pmx_func: GPIO_4_5_pmx_func {
+                     pinctrl-single,pins = <0x0    0x0>;
+		};
+		GPIO_4_5_pmx_idle: GPIO_4_5_pmx_idle {
+                     pinctrl-single,pins = <0x0    0x0>;
+		};
+
+		GPIO_5_0_pmx_func: GPIO_5_0_pmx_func {
+                     pinctrl-single,pins = <0x4    0x0>;
+		};
+		GPIO_5_0_pmx_idle: GPIO_5_0_pmx_idle {
+                     pinctrl-single,pins = <0x4    0x0>;
+		};
+
+		GPIO_5_1_pmx_func: GPIO_5_1_pmx_func {
+                     pinctrl-single,pins = <0x8    0x0>;
+		};
+		GPIO_5_1_pmx_idle: GPIO_5_1_pmx_idle {
+                     pinctrl-single,pins = <0x8    0x0>;
+		};
+
+		GPIO_5_4_pmx_func: GPIO_5_4_pmx_func {
+                     pinctrl-single,pins = <0xC    0x0>;
+		};
+		GPIO_5_4_pmx_idle: GPIO_5_4_pmx_idle {
+                     pinctrl-single,pins = <0xC    0x0>;
+		};
+
+		GPIO_5_5_pmx_func: GPIO_5_5_pmx_func {
+                     pinctrl-single,pins = <0x10    0x0>;
+		};
+		GPIO_5_5_pmx_idle: GPIO_5_5_pmx_idle {
+                     pinctrl-single,pins = <0x10    0x0>;
+		};
+
+		GPIO_5_6_pmx_func: GPIO_5_6_pmx_func {
+                     pinctrl-single,pins = <0x14    0x0>;
+		};
+		GPIO_5_6_pmx_idle: GPIO_5_6_pmx_idle {
+                     pinctrl-single,pins = <0x14    0x0>;
+		};
+
+		GPIO_5_7_pmx_func: GPIO_5_7_pmx_func {
+                     pinctrl-single,pins = <0x18    0x0>;
+		};
+		GPIO_5_7_pmx_idle: GPIO_5_7_pmx_idle {
+                     pinctrl-single,pins = <0x18    0x0>;
+		};
+
+		GPIO_6_0_pmx_func: GPIO_6_0_pmx_func {
+                     pinctrl-single,pins = <0x1C    0x0>;
+		};
+		GPIO_6_0_pmx_idle: GPIO_6_0_pmx_idle {
+                     pinctrl-single,pins = <0x1C    0x0>;
+		};
+
+		GPIO_6_1_pmx_func: GPIO_6_1_pmx_func {
+                     pinctrl-single,pins = <0x20    0x0>;
+		};
+		GPIO_6_1_pmx_idle: GPIO_6_1_pmx_idle {
+                     pinctrl-single,pins = <0x20    0x0>;
+		};
+
+		GPIO_6_3_pmx_func: GPIO_6_3_pmx_func {
+                     pinctrl-single,pins = <0x24    0x0>;
+		};
+		GPIO_6_3_pmx_idle: GPIO_6_3_pmx_idle {
+                     pinctrl-single,pins = <0x24    0x0>;
+		};
+
+		GPIO_6_4_pmx_func: GPIO_6_4_pmx_func {
+                     pinctrl-single,pins = <0x28    0x0>;
+		};
+		GPIO_6_4_pmx_idle: GPIO_6_4_pmx_idle {
+                     pinctrl-single,pins = <0x28    0x0>;
+		};
+
+		GPIO_6_5_pmx_func: GPIO_6_5_pmx_func {
+                     pinctrl-single,pins = <0x2C    0x0>;
+		};
+		GPIO_6_5_pmx_idle: GPIO_6_5_pmx_idle {
+                     pinctrl-single,pins = <0x2C    0x0>;
+		};
+
+		GPIO_6_6_pmx_func: GPIO_6_6_pmx_func {
+                     pinctrl-single,pins = <0x30    0x0>;
+		};
+		GPIO_6_6_pmx_idle: GPIO_6_6_pmx_idle {
+                     pinctrl-single,pins = <0x30    0x0>;
+		};
+
+		GPIO_7_0_pmx_func: GPIO_7_0_pmx_func {
+                     pinctrl-single,pins = <0x34    0x0>;
+		};
+		GPIO_7_0_pmx_idle: GPIO_7_0_pmx_idle {
+                     pinctrl-single,pins = <0x34    0x0>;
+		};
+
+		GPIO_7_1_pmx_func: GPIO_7_1_pmx_func {
+                     pinctrl-single,pins = <0x38    0x0>;
+		};
+		GPIO_7_1_pmx_idle: GPIO_7_1_pmx_idle {
+                     pinctrl-single,pins = <0x38    0x0>;
+		};
+
+		GPIO_7_2_pmx_func: GPIO_7_2_pmx_func {
+                     pinctrl-single,pins = <0x3C    0x0>;
+		};
+		GPIO_7_2_pmx_idle: GPIO_7_2_pmx_idle {
+                     pinctrl-single,pins = <0x3C    0x0>;
+		};
+
+		GPIO_7_3_pmx_func: GPIO_7_3_pmx_func {
+                     pinctrl-single,pins = <0x40    0x0>;
+		};
+		GPIO_7_3_pmx_idle: GPIO_7_3_pmx_idle {
+                     pinctrl-single,pins = <0x40    0x0>;
+		};
+
+		GPIO_7_6_pmx_func: GPIO_7_6_pmx_func {
+                     pinctrl-single,pins = <0x44    0x0>;
+		};
+		GPIO_7_6_pmx_idle: GPIO_7_6_pmx_idle {
+                     pinctrl-single,pins = <0x44    0x0>;
+		};
+
+		GPIO_7_7_pmx_func: GPIO_7_7_pmx_func {
+                     pinctrl-single,pins = <0x48    0x0>;
+		};
+		GPIO_7_7_pmx_idle: GPIO_7_7_pmx_idle {
+                     pinctrl-single,pins = <0x48    0x0>;
+		};
+
+		GPIO_8_0_pmx_func: GPIO_8_0_pmx_func {
+                     pinctrl-single,pins = <0x4C    0x0>;
+		};
+		GPIO_8_0_pmx_idle: GPIO_8_0_pmx_idle {
+                     pinctrl-single,pins = <0x4C    0x0>;
+		};
+
+		GPIO_8_1_pmx_func: GPIO_8_1_pmx_func {
+                     pinctrl-single,pins = <0x50    0x0>;
+		};
+		GPIO_8_1_pmx_idle: GPIO_8_1_pmx_idle {
+                     pinctrl-single,pins = <0x50    0x0>;
+		};
+
+		GPIO_8_2_pmx_func: GPIO_8_2_pmx_func {
+                     pinctrl-single,pins = <0x54    0x0>;
+		};
+		GPIO_8_2_pmx_idle: GPIO_8_2_pmx_idle {
+                     pinctrl-single,pins = <0x54    0x0>;
+		};
+
+		GPIO_8_3_pmx_func: GPIO_8_3_pmx_func {
+                     pinctrl-single,pins = <0x58    0x0>;
+		};
+		GPIO_8_3_pmx_idle: GPIO_8_3_pmx_idle {
+                     pinctrl-single,pins = <0x58    0x0>;
+		};
+
+		GPIO_8_4_pmx_func: GPIO_8_4_pmx_func {
+                     pinctrl-single,pins = <0x5C    0x0>;
+		};
+		GPIO_8_4_pmx_idle: GPIO_8_4_pmx_idle {
+                     pinctrl-single,pins = <0x5C    0x0>;
+		};
+
+		GPIO_8_7_pmx_func: GPIO_8_7_pmx_func {
+                     pinctrl-single,pins = <0x60    0x0>;
+		};
+		GPIO_8_7_pmx_idle: GPIO_8_7_pmx_idle {
+                     pinctrl-single,pins = <0x60    0x0>;
+		};
+
+		GPIO_9_0_pmx_func: GPIO_9_0_pmx_func {
+                     pinctrl-single,pins = <0x64    0x0>;
+		};
+		GPIO_9_0_pmx_idle: GPIO_9_0_pmx_idle {
+                     pinctrl-single,pins = <0x64    0x0>;
+		};
+
+		GPIO_9_2_pmx_func: GPIO_9_2_pmx_func {
+                     pinctrl-single,pins = <0x68    0x0>;
+		};
+		GPIO_9_2_pmx_idle: GPIO_9_2_pmx_idle {
+                     pinctrl-single,pins = <0x68    0x0>;
+		};
+
+		GPIO_9_3_pmx_func: GPIO_9_3_pmx_func {
+                     pinctrl-single,pins = <0x6C    0x0>;
+		};
+		GPIO_9_3_pmx_idle: GPIO_9_3_pmx_idle {
+                     pinctrl-single,pins = <0x6C    0x0>;
+		};
+
+		GPIO_9_5_pmx_func: GPIO_9_5_pmx_func {
+                     pinctrl-single,pins = <0x70    0x0>;
+		};
+		GPIO_9_5_pmx_idle: GPIO_9_5_pmx_idle {
+                     pinctrl-single,pins = <0x70    0x0>;
+		};
+
+		GPIO_9_6_pmx_func: GPIO_9_6_pmx_func {
+                     pinctrl-single,pins = <0x74    0x0>;
+		};
+		GPIO_9_6_pmx_idle: GPIO_9_6_pmx_idle {
+                     pinctrl-single,pins = <0x74    0x0>;
+		};
+
+		GPIO_9_7_pmx_func: GPIO_9_7_pmx_func {
+                     pinctrl-single,pins = <0x78    0x0>;
+		};
+		GPIO_9_7_pmx_idle: GPIO_9_7_pmx_idle {
+                     pinctrl-single,pins = <0x78    0x0>;
+		};
+
+		GPIO_10_0_pmx_func: GPIO_10_0_pmx_func {
+                     pinctrl-single,pins = <0x7C    0x0>;
+		};
+		GPIO_10_0_pmx_idle: GPIO_10_0_pmx_idle {
+                     pinctrl-single,pins = <0x7C    0x0>;
+		};
+
+		GPIO_10_1_pmx_func: GPIO_10_1_pmx_func {
+                     pinctrl-single,pins = <0x80    0x0>;
+		};
+		GPIO_10_1_pmx_idle: GPIO_10_1_pmx_idle {
+                     pinctrl-single,pins = <0x80    0x0>;
+		};
+
+		GPIO_10_2_pmx_func: GPIO_10_2_pmx_func {
+                     pinctrl-single,pins = <0x84    0x0>;
+		};
+		GPIO_10_2_pmx_idle: GPIO_10_2_pmx_idle {
+                     pinctrl-single,pins = <0x84    0x0>;
+		};
+
+		GPIO_10_4_pmx_func: GPIO_10_4_pmx_func {
+                     pinctrl-single,pins = <0x88    0x0>;
+		};
+		GPIO_10_4_pmx_idle: GPIO_10_4_pmx_idle {
+                     pinctrl-single,pins = <0x88    0x0>;
+		};
+
+		GPIO_10_5_pmx_func: GPIO_10_5_pmx_func {
+                     pinctrl-single,pins = <0x8C    0x0>;
+		};
+		GPIO_10_5_pmx_idle: GPIO_10_5_pmx_idle {
+                     pinctrl-single,pins = <0x8C    0x0>;
+		};
+
+		GPIO_10_6_pmx_func: GPIO_10_6_pmx_func {
+                     pinctrl-single,pins = <0x90    0x0>;
+		};
+		GPIO_10_6_pmx_idle: GPIO_10_6_pmx_idle {
+                     pinctrl-single,pins = <0x90    0x0>;
+		};
+
+		GPIO_10_7_pmx_func: GPIO_10_7_pmx_func {
+                     pinctrl-single,pins = <0x94    0x0>;
+		};
+		GPIO_10_7_pmx_idle: GPIO_10_7_pmx_idle {
+                     pinctrl-single,pins = <0x94    0x0>;
+		};
+
+		GPIO_11_0_pmx_func: GPIO_11_0_pmx_func {
+                     pinctrl-single,pins = <0x98    0x0>;
+		};
+		GPIO_11_0_pmx_idle: GPIO_11_0_pmx_idle {
+                     pinctrl-single,pins = <0x98    0x0>;
+		};
+
+		GPIO_11_1_pmx_func: GPIO_11_1_pmx_func {
+                     pinctrl-single,pins = <0x9C    0x0>;
+		};
+		GPIO_11_1_pmx_idle: GPIO_11_1_pmx_idle {
+                     pinctrl-single,pins = <0x9C    0x0>;
+		};
+
+		GPIO_11_2_pmx_func: GPIO_11_2_pmx_func {
+                     pinctrl-single,pins = <0xA0    0x0>;
+		};
+		GPIO_11_2_pmx_idle: GPIO_11_2_pmx_idle {
+                     pinctrl-single,pins = <0xA0    0x0>;
+		};
+
+       };
+
+    pmx2: pinmux@F8001800 {
+		GPIO_0_0_cfg_func: GPIO_0_0_cfg_func {
+                     pinctrl-single,pins = <0x10  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_0_0_cfg_idle: GPIO_0_0_cfg_idle {
+                     pinctrl-single,pins = <0x10  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_0_4_cfg_func: GPIO_0_4_cfg_func {
+                     pinctrl-single,pins = <0x14  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_0_4_cfg_idle: GPIO_0_4_cfg_idle {
+                     pinctrl-single,pins = <0x14  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_0_6_cfg_func: GPIO_0_6_cfg_func {
+                     pinctrl-single,pins = <0x18  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_0_6_cfg_idle: GPIO_0_6_cfg_idle {
+                     pinctrl-single,pins = <0x18  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_0_7_cfg_func: GPIO_0_7_cfg_func {
+                     pinctrl-single,pins = <0x1C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_0_7_cfg_idle: GPIO_0_7_cfg_idle {
+                     pinctrl-single,pins = <0x1C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_1_2_cfg_func: GPIO_1_2_cfg_func {
+                     pinctrl-single,pins = <0x20  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_1_2_cfg_idle: GPIO_1_2_cfg_idle {
+                     pinctrl-single,pins = <0x20  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_1_3_cfg_func: GPIO_1_3_cfg_func {
+                     pinctrl-single,pins = <0x24  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_1_3_cfg_idle: GPIO_1_3_cfg_idle {
+                     pinctrl-single,pins = <0x24  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_1_4_cfg_func: GPIO_1_4_cfg_func {
+                     pinctrl-single,pins = <0x28  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_1_4_cfg_idle: GPIO_1_4_cfg_idle {
+                     pinctrl-single,pins = <0x28  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_0_cfg_func: GPIO_2_0_cfg_func {
+                     pinctrl-single,pins = <0x2C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_0_cfg_idle: GPIO_2_0_cfg_idle {
+                     pinctrl-single,pins = <0x2C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_1_cfg_func: GPIO_2_1_cfg_func {
+                     pinctrl-single,pins = <0x30  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_1_cfg_idle: GPIO_2_1_cfg_idle {
+                     pinctrl-single,pins = <0x30  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_3_cfg_func: GPIO_2_3_cfg_func {
+                     pinctrl-single,pins = <0x34  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_3_cfg_idle: GPIO_2_3_cfg_idle {
+                     pinctrl-single,pins = <0x34  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_4_cfg_func: GPIO_2_4_cfg_func {
+                     pinctrl-single,pins = <0x38  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_4_cfg_idle: GPIO_2_4_cfg_idle {
+                     pinctrl-single,pins = <0x38  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_5_cfg_func: GPIO_2_5_cfg_func {
+                     pinctrl-single,pins = <0x3C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_5_cfg_idle: GPIO_2_5_cfg_idle {
+                     pinctrl-single,pins = <0x3C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_6_cfg_func: GPIO_2_6_cfg_func {
+                     pinctrl-single,pins = <0x40  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_6_cfg_idle: GPIO_2_6_cfg_idle {
+                     pinctrl-single,pins = <0x40  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_2_7_cfg_func: GPIO_2_7_cfg_func {
+                     pinctrl-single,pins = <0x44  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_2_7_cfg_idle: GPIO_2_7_cfg_idle {
+                     pinctrl-single,pins = <0x44  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_0_cfg_func: GPIO_3_0_cfg_func {
+                     pinctrl-single,pins = <0x48  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_0_cfg_idle: GPIO_3_0_cfg_idle {
+                     pinctrl-single,pins = <0x48  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_1_cfg_func: GPIO_3_1_cfg_func {
+                     pinctrl-single,pins = <0x4C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_1_cfg_idle: GPIO_3_1_cfg_idle {
+                     pinctrl-single,pins = <0x4C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_2_cfg_func: GPIO_3_2_cfg_func {
+                     pinctrl-single,pins = <0x50  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_2_cfg_idle: GPIO_3_2_cfg_idle {
+                     pinctrl-single,pins = <0x50  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_3_cfg_func: GPIO_3_3_cfg_func {
+                     pinctrl-single,pins = <0x54  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_3_cfg_idle: GPIO_3_3_cfg_idle {
+                     pinctrl-single,pins = <0x54  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_4_cfg_func: GPIO_3_4_cfg_func {
+                     pinctrl-single,pins = <0x58  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_4_cfg_idle: GPIO_3_4_cfg_idle {
+                     pinctrl-single,pins = <0x58  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_5_cfg_func: GPIO_3_5_cfg_func {
+                     pinctrl-single,pins = <0x5C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_5_cfg_idle: GPIO_3_5_cfg_idle {
+                     pinctrl-single,pins = <0x5C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_6_cfg_func: GPIO_3_6_cfg_func {
+                     pinctrl-single,pins = <0x60  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_6_cfg_idle: GPIO_3_6_cfg_idle {
+                     pinctrl-single,pins = <0x60  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_3_7_cfg_func: GPIO_3_7_cfg_func {
+                     pinctrl-single,pins = <0x64  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_3_7_cfg_idle: GPIO_3_7_cfg_idle {
+                     pinctrl-single,pins = <0x64  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_0_cfg_func: GPIO_4_0_cfg_func {
+                     pinctrl-single,pins = <0x68  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_0_cfg_idle: GPIO_4_0_cfg_idle {
+                     pinctrl-single,pins = <0x68  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_1_cfg_func: GPIO_4_1_cfg_func {
+                     pinctrl-single,pins = <0x6C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_1_cfg_idle: GPIO_4_1_cfg_idle {
+                     pinctrl-single,pins = <0x6C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_2_cfg_func: GPIO_4_2_cfg_func {
+                     pinctrl-single,pins = <0x70  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_2_cfg_idle: GPIO_4_2_cfg_idle {
+                     pinctrl-single,pins = <0x70  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_3_cfg_func: GPIO_4_3_cfg_func {
+                     pinctrl-single,pins = <0x74  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_3_cfg_idle: GPIO_4_3_cfg_idle {
+                     pinctrl-single,pins = <0x74  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_4_cfg_func: GPIO_4_4_cfg_func {
+                     pinctrl-single,pins = <0xA8  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_4_cfg_idle: GPIO_4_4_cfg_idle {
+                     pinctrl-single,pins = <0xA8  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_5_cfg_func: GPIO_4_5_cfg_func {
+                     pinctrl-single,pins = <0x0  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_5_cfg_idle: GPIO_4_5_cfg_idle {
+                     pinctrl-single,pins = <0x0  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_6_cfg_func: GPIO_4_6_cfg_func {
+                     pinctrl-single,pins = <0xAC  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_6_cfg_idle: GPIO_4_6_cfg_idle {
+                     pinctrl-single,pins = <0xAC  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_4_7_cfg_func: GPIO_4_7_cfg_func {
+                     pinctrl-single,pins = <0xB0  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_4_7_cfg_idle: GPIO_4_7_cfg_idle {
+                     pinctrl-single,pins = <0xB0  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_5_0_cfg_func: GPIO_5_0_cfg_func {
+                     pinctrl-single,pins = <0x4  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_5_0_cfg_idle: GPIO_5_0_cfg_idle {
+                     pinctrl-single,pins = <0x4  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_5_1_cfg_func: GPIO_5_1_cfg_func {
+                     pinctrl-single,pins = <0x8  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_5_1_cfg_idle: GPIO_5_1_cfg_idle {
+                     pinctrl-single,pins = <0x8  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_5_4_cfg_func: GPIO_5_4_cfg_func {
+                     pinctrl-single,pins = <0xC  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_5_4_cfg_idle: GPIO_5_4_cfg_idle {
+                     pinctrl-single,pins = <0xC  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_5_5_cfg_func: GPIO_5_5_cfg_func {
+                     pinctrl-single,pins = <0x10  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_5_5_cfg_idle: GPIO_5_5_cfg_idle {
+                     pinctrl-single,pins = <0x10  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_5_6_cfg_func: GPIO_5_6_cfg_func {
+                     pinctrl-single,pins = <0x14  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_5_6_cfg_idle: GPIO_5_6_cfg_idle {
+                     pinctrl-single,pins = <0x14  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_5_7_cfg_func: GPIO_5_7_cfg_func {
+                     pinctrl-single,pins = <0x18  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_5_7_cfg_idle: GPIO_5_7_cfg_idle {
+                     pinctrl-single,pins = <0x18  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_6_0_cfg_func: GPIO_6_0_cfg_func {
+                     pinctrl-single,pins = <0x1C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_6_0_cfg_idle: GPIO_6_0_cfg_idle {
+                     pinctrl-single,pins = <0x1C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_6_1_cfg_func: GPIO_6_1_cfg_func {
+                     pinctrl-single,pins = <0x20  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_6_1_cfg_idle: GPIO_6_1_cfg_idle {
+                     pinctrl-single,pins = <0x20  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_6_2_cfg_func: GPIO_6_2_cfg_func {
+                     pinctrl-single,pins = <0x24  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+		GPIO_6_2_cfg_idle: GPIO_6_2_cfg_idle {
+                     pinctrl-single,pins = <0x24  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x10 0x70>;
+		};
+
+		GPIO_6_3_cfg_func: GPIO_6_3_cfg_func {
+                     pinctrl-single,pins = <0x28  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_6_3_cfg_idle: GPIO_6_3_cfg_idle {
+                     pinctrl-single,pins = <0x28  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_6_4_cfg_func: GPIO_6_4_cfg_func {
+                     pinctrl-single,pins = <0x2C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_6_4_cfg_idle: GPIO_6_4_cfg_idle {
+                     pinctrl-single,pins = <0x2C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_6_5_cfg_func: GPIO_6_5_cfg_func {
+                     pinctrl-single,pins = <0x30  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_6_5_cfg_idle: GPIO_6_5_cfg_idle {
+                     pinctrl-single,pins = <0x30  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_6_6_cfg_func: GPIO_6_6_cfg_func {
+                     pinctrl-single,pins = <0x34  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_6_6_cfg_idle: GPIO_6_6_cfg_idle {
+                     pinctrl-single,pins = <0x34  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_7_0_cfg_func: GPIO_7_0_cfg_func {
+                     pinctrl-single,pins = <0x38  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_7_0_cfg_idle: GPIO_7_0_cfg_idle {
+                     pinctrl-single,pins = <0x38  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_7_1_cfg_func: GPIO_7_1_cfg_func {
+                     pinctrl-single,pins = <0x3C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_7_1_cfg_idle: GPIO_7_1_cfg_idle {
+                     pinctrl-single,pins = <0x3C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_7_2_cfg_func: GPIO_7_2_cfg_func {
+                     pinctrl-single,pins = <0x40  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_7_2_cfg_idle: GPIO_7_2_cfg_idle {
+                     pinctrl-single,pins = <0x40  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_7_3_cfg_func: GPIO_7_3_cfg_func {
+                     pinctrl-single,pins = <0x44  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_7_3_cfg_idle: GPIO_7_3_cfg_idle {
+                     pinctrl-single,pins = <0x44  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_7_6_cfg_func: GPIO_7_6_cfg_func {
+                     pinctrl-single,pins = <0x48  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_7_6_cfg_idle: GPIO_7_6_cfg_idle {
+                     pinctrl-single,pins = <0x48  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_7_7_cfg_func: GPIO_7_7_cfg_func {
+                     pinctrl-single,pins = <0x4C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_7_7_cfg_idle: GPIO_7_7_cfg_idle {
+                     pinctrl-single,pins = <0x4C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_8_0_cfg_func: GPIO_8_0_cfg_func {
+                     pinctrl-single,pins = <0x50  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_8_0_cfg_idle: GPIO_8_0_cfg_idle {
+                     pinctrl-single,pins = <0x50  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_8_1_cfg_func: GPIO_8_1_cfg_func {
+                     pinctrl-single,pins = <0x54  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_8_1_cfg_idle: GPIO_8_1_cfg_idle {
+                     pinctrl-single,pins = <0x54  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_8_2_cfg_func: GPIO_8_2_cfg_func {
+                     pinctrl-single,pins = <0x58  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_8_2_cfg_idle: GPIO_8_2_cfg_idle {
+                     pinctrl-single,pins = <0x58  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_8_3_cfg_func: GPIO_8_3_cfg_func {
+                     pinctrl-single,pins = <0x5C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_8_3_cfg_idle: GPIO_8_3_cfg_idle {
+                     pinctrl-single,pins = <0x5C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_8_4_cfg_func: GPIO_8_4_cfg_func {
+                     pinctrl-single,pins = <0x60  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_8_4_cfg_idle: GPIO_8_4_cfg_idle {
+                     pinctrl-single,pins = <0x60  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_8_7_cfg_func: GPIO_8_7_cfg_func {
+                     pinctrl-single,pins = <0x64  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_8_7_cfg_idle: GPIO_8_7_cfg_idle {
+                     pinctrl-single,pins = <0x64  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_9_0_cfg_func: GPIO_9_0_cfg_func {
+                     pinctrl-single,pins = <0x68  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_9_0_cfg_idle: GPIO_9_0_cfg_idle {
+                     pinctrl-single,pins = <0x68  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_9_2_cfg_func: GPIO_9_2_cfg_func {
+                     pinctrl-single,pins = <0x6C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_9_2_cfg_idle: GPIO_9_2_cfg_idle {
+                     pinctrl-single,pins = <0x6C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_9_3_cfg_func: GPIO_9_3_cfg_func {
+                     pinctrl-single,pins = <0x70  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_9_3_cfg_idle: GPIO_9_3_cfg_idle {
+                     pinctrl-single,pins = <0x70  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_9_5_cfg_func: GPIO_9_5_cfg_func {
+                     pinctrl-single,pins = <0x74  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_9_5_cfg_idle: GPIO_9_5_cfg_idle {
+                     pinctrl-single,pins = <0x74  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_9_6_cfg_func: GPIO_9_6_cfg_func {
+                     pinctrl-single,pins = <0x78  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_9_6_cfg_idle: GPIO_9_6_cfg_idle {
+                     pinctrl-single,pins = <0x78  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_9_7_cfg_func: GPIO_9_7_cfg_func {
+                     pinctrl-single,pins = <0x7C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_9_7_cfg_idle: GPIO_9_7_cfg_idle {
+                     pinctrl-single,pins = <0x7C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_0_cfg_func: GPIO_10_0_cfg_func {
+                     pinctrl-single,pins = <0x80  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_0_cfg_idle: GPIO_10_0_cfg_idle {
+                     pinctrl-single,pins = <0x80  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_1_cfg_func: GPIO_10_1_cfg_func {
+                     pinctrl-single,pins = <0x84  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_1_cfg_idle: GPIO_10_1_cfg_idle {
+                     pinctrl-single,pins = <0x84  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_2_cfg_func: GPIO_10_2_cfg_func {
+                     pinctrl-single,pins = <0x88  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_2_cfg_idle: GPIO_10_2_cfg_idle {
+                     pinctrl-single,pins = <0x88  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_4_cfg_func: GPIO_10_4_cfg_func {
+                     pinctrl-single,pins = <0x8C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_4_cfg_idle: GPIO_10_4_cfg_idle {
+                     pinctrl-single,pins = <0x8C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_5_cfg_func: GPIO_10_5_cfg_func {
+                     pinctrl-single,pins = <0x90  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_5_cfg_idle: GPIO_10_5_cfg_idle {
+                     pinctrl-single,pins = <0x90  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_6_cfg_func: GPIO_10_6_cfg_func {
+                     pinctrl-single,pins = <0x94  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_6_cfg_idle: GPIO_10_6_cfg_idle {
+                     pinctrl-single,pins = <0x94  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_10_7_cfg_func: GPIO_10_7_cfg_func {
+                     pinctrl-single,pins = <0x98  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_10_7_cfg_idle: GPIO_10_7_cfg_idle {
+                     pinctrl-single,pins = <0x98  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_11_0_cfg_func: GPIO_11_0_cfg_func {
+                     pinctrl-single,pins = <0x9C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_11_0_cfg_idle: GPIO_11_0_cfg_idle {
+                     pinctrl-single,pins = <0x9C  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_11_1_cfg_func: GPIO_11_1_cfg_func {
+                     pinctrl-single,pins = <0xA0  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+		GPIO_11_1_cfg_idle: GPIO_11_1_cfg_idle {
+                     pinctrl-single,pins = <0xA0  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x20 0x70>;
+		};
+
+		GPIO_11_2_cfg_func: GPIO_11_2_cfg_func {
+                     pinctrl-single,pins = <0xA4  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x40 0x70>;
+		};
+		GPIO_11_2_cfg_idle: GPIO_11_2_cfg_idle {
+                     pinctrl-single,pins = <0xA4  0>;
+                     pinctrl-single,bias-pulldown = <0 2 0 2>;
+                     pinctrl-single,bias-pullup = <0 1 0 1>;
+                     pinctrl-single,drive-strength = <0x40 0x70>;
+		};
+
+       };
+
+   };
+};

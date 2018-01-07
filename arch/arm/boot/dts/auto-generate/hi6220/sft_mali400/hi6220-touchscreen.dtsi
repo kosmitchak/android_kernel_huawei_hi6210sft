@@ -1,0 +1,36 @@
+/ {
+	touchscreen {
+		compatible = "huawei,touchscreen";
+		bus_type = "i2c";
+		bus_id = <1>;
+		product = "hi6210_sft";
+		has_virtualkey = <1>;
+		support_chip_name = "synaptics";
+		synaptics: touchscreen@70 {
+			compatible = "synaptics";
+			/*0-S3207, 1-S3350, 2-3320*/
+			ic_type = <0>;
+			x_max = <2200>;
+			y_max = <3800>;
+			x_max_mt = <720>;
+			y_max_mt = <1280>;
+			vci_gpio_type = <0>;
+			vci_regulator_type = <0>;
+			vddio_gpio_type = <0>;
+			vddio_regulator_type = <0>;
+			vci_ctrl_gpio;
+			vddio_ctrl_gpio;
+			slave_address = <0x70>;
+			pinctrl-names = "default", "idle";
+			pinctrl-0;
+			pinctrl-1;
+			synaptics-vdd-supply;
+			synaptics-io-supply;
+			reset_gpio = <&gpio5 7 0>;
+			attn_gpio = <&gpio5 6 0>;
+			power_gpio;
+			irq_config = <3>;
+			algo_id = <1>;
+		};
+	};
+};

@@ -1,0 +1,45 @@
+config HISILICON_PLATFORM_NOC
+	bool "Support HiSilicon NOC"
+	default n
+	help
+	  This driver supports HiSilicon HiXXX NOC,
+	  including hisilicon noc driver.
+
+config HI6XXX_NOC
+	bool "Support HiSilicon Hi3XXX NOC"
+	depends on ARCH_HI6XXX
+	default n
+	help
+	  This driver supports HiSilicon Hi6XXX NOC,
+	  including hisilicon noc driver.
+
+config HI6XXX_NOC_ERR_PROBE
+	depends on HI6XXX_NOC
+	bool "Support HiSilicon Hi6XXX NOC Error Probe"
+	default n
+	help
+	  NoC Error Probe driver
+
+config HI3XXX_NOC
+	bool "Support HiSilicon Hi3XXX NOC"
+	depends on ARCH_HI3XXX
+	default n
+	help
+	  This driver supports HiSilicon Hi3XXX NOC,
+	  including hisilicon noc driver.
+ 
+config HI3XXX_NOC_ERR_PROBE
+	depends on HI3XXX_NOC
+	bool "Support HiSilicon Hi3XXX NOC Error Probe"
+	default n
+	help
+	  NoC Error Probe driver
+
+config CONFIG_HI3XXX_NOC_TIMEOUT
+	depends on HI3XXX_NOC
+	bool "Support HiSilicon Hi3XXX NOC timeout irq"
+	default n
+	help
+	   NoC irq timeout driver
+
+

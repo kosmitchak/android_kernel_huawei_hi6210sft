@@ -1,0 +1,10 @@
+PLATFORM_SRC_FILES +=
+
+# IMGVIDEO includes
+PLATFORM_C_INCLUDES := $(ANDROID_BUILD_TOP)/device/hisi/common/graphics/include \
+			$(IMG_VIDEO)/platform/include
+
+PLATFORM_CFLAGS :=
+PLATFORM_STATIC_LIBRARIES :=
+PLATFORM_SHARED_LIBRARIES :=
+

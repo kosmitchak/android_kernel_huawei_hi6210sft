@@ -1,0 +1,53 @@
+/*
+ *  Copyright (C) 2014 Hisilicon Ltd.
+ *  Author: Bintian Wang <bintian.wang@huawei.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2 as
+ *  publishhed by the Free Software Foundation.
+ */
+
+/include/ "SHINE_UL10_VA_config.dtsi"
+/include/ "SHINE_TL10_VA_pin.dtsi"
+/include/ "SHINE_TL10_VA_gpio_logic.dtsi"
+/include/ "SHINE_TL10_VA_pmic.dtsi"
+/include/ "SHINE_TL10_VA_charger.dtsi"
+/ {
+    model = "Hisilicon Hi6210 Development Board";
+    compatible = "hisilicon,hi6210";
+    hisi,boardid = <0 7 0 5>;
+    hisi,boardname = "SHINE_TL10_VA";
+    hisi,modem_id = <0x3DD51D00>;
+    hisi,product_name = "SHINE_TL10";
+
+    boardinfo{
+        factory_product_name = "HL01SHINE";
+        normal_product_name = "Shine-TL10";
+    };
+	amba {
+	i2c2: i2c@f7102000 {
+			st_lis3dh_acc:acc@18{
+				axis_map_x=<0>;
+				axis_map_y=<1>;
+				axis_map_z=<2>;
+				negate_x=<1>;
+				negate_y=<1>;
+				negate_z=<0>;
+				status = "ok";
+			};
+			rohm_kc023_acc:acc@1E{
+				axis_map_x=<0>;
+				axis_map_y=<1>;
+				axis_map_z=<2>;
+				negate_x=<1>;
+				negate_y=<1>;
+				negate_z=<0>;
+				status = "ok";
+			};
+			akm_akm09911:compass@0d{
+				compass_layout=<4>;
+				status = "ok";
+            };
+		};
+	};
+};
